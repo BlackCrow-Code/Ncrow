@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/BlackCrow-Code/Ncrow?style=for-the-badge&color=blue" alt="MIT License">
+  <img src="https://img.shields.io/github/license/BlackCrow-Code/Ncrow?style=for-the-badge&color=blue" alt="LICENSE">
   <img src="https://img.shields.io/github/languages/top/BlackCrow-Code/Ncrow?style=for-the-badge&color=green" alt="Python">
   <img src="https://img.shields.io/github/stars/BlackCrow-Code/Ncrow?style=for-the-badge&color=gold" alt="Stars">
 </p>
