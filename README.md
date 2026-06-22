@@ -38,4 +38,4 @@ This tool is for **educational purposes** and **authorized testing only**.
 The developer is not responsible for any misuse.
 
 ## 👤 Author
-**BlackCrow-Code** — Security Researcher & Network Analyst
+**BlackCrow-Code** — Security Researcher & Programmer & cybersecurity engineer
