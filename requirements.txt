@@ -16,7 +16,7 @@ Python 3.x — Kali Linux (recommended)
 
 ## 🚀 Usage
 
-```bash
+
 # Scan default ports (1-1024)
 python ncrow.py -t <target>
 
@@ -31,7 +31,6 @@ python ncrow.py -t <target> -b
 
 # Set thread count
 python ncrow.py -t <target> -T 500
-```
 
 ## ⚠️ Disclaimer
 This tool is for **educational purposes** and **authorized testing only**.
