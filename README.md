@@ -1,58 +1,77 @@
-# 🦅 Ncrow - Port Scanner
+<p align="center">
+  <h1 align="center">🦅 Ncrow - Multi-Threaded Port Scanner 🦅</h1>
+</p>
 
-> See what's hiding behind every open port.
+<p align="center">
+  <img src="https://img.shields.io/github/license/BlackCrow-Code/Ncrow?style=for-the-badge&color=blue" alt="MIT License">
+  <img src="https://img.shields.io/github/languages/top/BlackCrow-Code/Ncrow?style=for-the-badge&color=green" alt="Python">
+  <img src="https://img.shields.io/github/stars/BlackCrow-Code/Ncrow?style=for-the-badge&color=gold" alt="Stars">
+</p>
 
-A fast and lightweight port scanner built in Python with multi-threading and banner grabbing support. Built on Kali Linux.
+<p align="center">
+  <b>A fast, lightweight, and modern multi-threaded port scanner built with Python, Sockets, and Scapy for Cyber Security professionals.</b>
+</p>
 
-## ⚡ Features
-- Multi-threaded scanning (fast)
-- Banner grabbing to detect services
-- Color-coded terminal output
-- Scan specific port range or all 65535 ports
-- Simple CLI interface
-##Screenshots
-# Help Menu ![Help]
- <img width="791" height="329" alt="Screenshot From 2026-06-22 09-51-57" src="https://github.com/user-attachments/assets/50e92164-2329-415e-80e9-6d4991cf6fad" />
+---
 
+## 🚀 Features
+* ⚡ **Extreme Speed:** Leverages Python `threading` and `Semaphores` to scan hundreds of ports concurrently.
+* 🎨 **Color-Coded Output:** Beautiful terminal output with distinct colors for open ports and services.
+* 🔍 **Service Grabbing:** Automatically detects the underlying service running on open ports.
+* 🛡️ **Stealth & Clean CLI:** Built using `argparse` for a professional command-line interface experience.
 
-# Scan Example ![Scan] 
-<img width="803" height="162" alt="normal (Edited)" src="https://github.com/user-attachments/assets/1bcccbfe-fed1-4a35-9ee8-ace60f938699" />
+---
 
+## 🛠️ Installation
 
-# Interrupt Handling ![Ctr+C] 
-<img width="807" height="165" alt="Screenshot From 2026-06-22 09-51-35" src="https://github.com/user-attachments/assets/43d54972-6a12-4e36-ac6c-fd67052df350" />
+Run the following commands in your Kali Linux terminal to install and setup Ncrow:
 
+```bash
+# Clone the repository
+git clone [https://github.com/BlackCrow-Code/Ncrow.git](https://github.com/BlackCrow-Code/Ncrow.git)
 
+# Navigate to the tool directory
+cd Ncrow
 
-## 📦 Requirements
-Python 3.x — Kali Linux (recommended)
+# Install dependencies
+pip install -r requirements.txt
+```
 
-## 🚀 Usage
+---
 
+## 💻 Usage & Options
 
--Scan default ports (1-1024)
+To view the help menu and understand the arguments, use the `-h` or `--help` flag:
 
-python ncrow.py -t <target>
+### 📄 Help Menu
+```text
+usage: Ncrow.py [-h] -t TARGET [-p PORT PORT] [-a] [-T THREADS] [-b]
 
--Scan all ports
+Ncrow-PortScanner
 
-python ncrow.py -t <target> -a
+options:
+  -h, --help            show this help message and exit
+  -t, --target TARGET   Url or IP_Address
+  -p, --port PORT PORT  Start with port [Space] finish with port
+  -a, --all             Scan all ports
+  -T, --threads THREADS Number of threads
+  -b, --banner          Banner Grabbing
+```
 
--Scan specific range
+### 🔍 Scan Example
+To scan a target IP address for ports ranging from 1 to 1024, execute with root privileges:
 
-python ncrow.py -t <target> -p 1 8080
+```bash
+sudo python3 ncrow.py -t 192.168.1.1 -p 1 1024
+```
 
--With banner grabbing
+---
 
-python ncrow.py -t <target> -b
+## 📸 Screenshots
+<p align="center">
+  </p>
 
--Set thread count
+---
 
-python ncrow.py -t <target> -T 500
-
-## ⚠️ Disclaimer
-This tool is for **educational purposes** and **authorized testing only**.
-The developer is not responsible for any misuse.
-
-## 👤 Author
-**BlackCrow-Code** — Security Researcher & Programmer & cybersecurity engineer
+## 📜 License
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
