@@ -11,13 +11,13 @@ A fast and lightweight port scanner built in Python with multi-threading and ban
 - Scan specific port range or all 65535 ports
 - Simple CLI interface
 ##Screenshots
---> Help Menu ![Help]
+# Help Menu ![Help]
   <img width="791" height="329" alt="Screenshot From 2026-06-22 09-51-57" src="https://github.com/user-attachments/assets/3ccd4d41-4333-4d98-b217-fc5177de35ba" />
 
---> Scan Example ![Scan] 
+# Scan Example ![Scan] 
 <img width="803" height="162" alt="normal (Edited)" src="https://github.com/user-attachments/assets/04fbff4b-a006-4837-b4b8-d19e9a1e4fee" />
 
--->Interrupt Handling ![Ctr+C] 
+# Interrupt Handling ![Ctr+C] 
 <img width="807" height="165" alt="Screenshot From 2026-06-22 09-51-35" src="https://github.com/user-attachments/assets/96715f9d-1f97-480a-ad48-1944bc583d30" />
 
 
