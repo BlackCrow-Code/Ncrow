@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <b>A fast, lightweight, and modern multi-threaded port scanner built with Python, Sockets, and Scapy for Cyber Security professionals.</b>
+  <b>A fast, lightweight, and modern multi-threaded port scanner built with Python, Sockets,  for Cyber Security professionals.</b>
 </p>
 
 ---
