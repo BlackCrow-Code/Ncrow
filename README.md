@@ -62,7 +62,7 @@ options:
 To scan a target IP address for ports ranging from 1 to 1024, execute with root privileges:
 
 ```bash
-sudo python3 ncrow.py -t 192.168.1.1 -p 1 1024
+sudo python3 ncrow.py -t <target> -p 1 1024
 ```
 
 ---
