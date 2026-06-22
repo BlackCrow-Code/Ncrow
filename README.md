@@ -30,19 +30,19 @@ Python 3.x — Kali Linux (recommended)
 ## 🚀 Usage
 
 
-# Scan default ports (1-1024)
+-Scan default ports (1-1024)
 python ncrow.py -t <target>
 
-# Scan all ports
+-Scan all ports
 python ncrow.py -t <target> -a
 
-# Scan specific range
+-Scan specific range
 python ncrow.py -t <target> -p 1 8080
 
-# With banner grabbing
+-With banner grabbing
 python ncrow.py -t <target> -b
 
-# Set thread count
+-Set thread count
 python ncrow.py -t <target> -T 500
 
 ## ⚠️ Disclaimer
