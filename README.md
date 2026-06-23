@@ -29,7 +29,7 @@ Run the following commands in your Kali Linux terminal to install and setup Ncro
 
 ```bash
 # Clone the repository
-git clone [https://github.com/BlackCrow-Code/Ncrow.git](https://github.com/BlackCrow-Code/Ncrow.git)
+git clone https://github.com/BlackCrow-Code/Ncrow.git
 
 # Navigate to the tool directory
 cd Ncrow
