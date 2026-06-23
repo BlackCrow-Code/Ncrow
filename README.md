@@ -70,6 +70,12 @@ sudo python3 ncrow.py -t <target> -p 1 1024
 
 ## 📸 Screenshots
 <p align="center">
+  <img width="791" height="329" alt="Screenshot From 2026-06-22 09-51-57" src="https://github.com/user-attachments/assets/1f114fe5-ae3f-4376-ac4d-d89853965792" />
+  <img width="803" height="162" alt="normal (Edited)" src="https://github.com/user-attachments/assets/cfe87dac-a85f-4a9b-9679-fd61c895542f" />
+  <img width="807" height="165" alt="Screenshot From 2026-06-22 09-51-35" src="https://github.com/user-attachments/assets/6d020596-bb56-4844-9fed-c049420e088c" />
+
+
+
   </p>
 
 ---
