@@ -90,5 +90,9 @@ sudo python3 ncrow.py -t <target> -p 1 1024
 ---
 
 ## 📜 License
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+License
+
+This project is licensed under the MIT License with Additional Custom Developer Terms.
+
+Please review the full license text below- see the [LICENSE](LICENSE) file for details.
  
