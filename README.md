@@ -28,6 +28,14 @@
 
 ---
 
+## 📦 Requirements
+
+* Python 3.x
+* Kali Linux (or any Linux distro with Python 3 installed)
+* Dependencies listed in `requirements.txt` (`rich`, `pyfiglet`, `requests`)
+
+---
+
 ## 🛠️ Installation
 
 Run the following commands in your Kali Linux terminal to install and setup Ncrow:
@@ -96,20 +104,31 @@ sudo python3 ncrow.py -t <target> -p 1 1024 -oj results.json -on results.txt
 
   # Help Menu
 
-  <img width="647" height="364" alt="Screenshot From 2026-07-07 13-30-10" src="https://github.com/user-attachments/assets/0d680c1a-f73e-4113-b667-db96ca675cd4" />
-
+  <img width="647" height="364" alt="Help Menu" src="https://github.com/user-attachments/assets/0d680c1a-f73e-4113-b667-db96ca675cd4" />
 
   # Scan Example
 
-<img width="651" height="336" alt="Screenshot From 2026-07-07 13-31-23" src="https://github.com/user-attachments/assets/bd2ddb87-8124-42f7-99f9-08f2c96341ff" />
-
+  <img width="651" height="336" alt="Scan Example" src="https://github.com/user-attachments/assets/bd2ddb87-8124-42f7-99f9-08f2c96341ff" />
 
   # Interrupt Handling
 
-  <img width="651" height="336" alt="Screenshot From 2026-07-07 13-31-35" src="https://github.com/user-attachments/assets/5903e064-b132-445c-9661-c1a51df4a088" />
-
+  <img width="651" height="336" alt="Interrupt Handling" src="https://github.com/user-attachments/assets/5903e064-b132-445c-9661-c1a51df4a088" />
 
 </p>
+
+---
+
+## ⚠️ Disclaimer
+
+Ncrow is developed strictly for **educational and authorized security testing purposes only**.
+Do not use this tool against any target without explicit permission from the owner.
+The author is not responsible for any misuse or damage caused by this tool.
+
+---
+
+## 👤 Author
+
+**BlackCrow-Code** — Security Researcher
 
 ---
 
